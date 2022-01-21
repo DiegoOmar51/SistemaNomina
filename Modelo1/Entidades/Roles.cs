@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Modelo1.Entidades
 {
-    public class DecimoCuarto
+    public class Roles
     {
         public int Id { get; set; }
-        //Relacion de uno a muchos con empleado
+        public DateTime Fecha { get; set; }
+        public string Estado { get; set; }   // PENdiente, APRobada, ANUlada
+        // Relación con el empleado
         public int EmpleadoId { get; set; }
-        public Empleado   Empleado { get; set; }
-        public string Meses { get; set; }
-        public double Total { get; set; }
+        public Empleado Empleado { get; set; }
     }
 }

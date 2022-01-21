@@ -8,14 +8,18 @@ namespace Modelo1.Entidades
 {
     public class HorasExt
     {
-        public int id { get; set; }
-        public int EmpleadoId { get; set; }
-        public float horas25 { get; set; }
-        public float horas50 { get; set; }
-        public float horas100 { get; set; }
-        public float voras25 { get; set; }
-        public float vhoras50 { get; set; }
-        public float vhoras100 { get; set; }
-        public ICollection<Empleado> lista { get; set; }
+        public int Id { get; set; }
+        //Relacion de uno a muchos
+        public Empleado Empleado { get; set; }
+     
+        public double h25  { get; set; }
+        public double h50 { get; set; }
+        public double h100 { get; set; }
+
+        public double vh25 { get; set; }
+        public double vh50 { get; set; }
+        public double vh100 { get; set; }
+
+        public double Total { get; set; }
     }
 }

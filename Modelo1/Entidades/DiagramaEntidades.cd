@@ -3,49 +3,42 @@
   <Class Name="Modelo1.Entidades.DecimoCuarto">
     <Position X="0.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABAAAAAIAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAJQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\DecimoCuarto.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Modelo1.Entidades.DecimoTercero">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAEABAAQBAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAJQAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAgAAA=</HashCode>
       <FileName>Entidades\DecimoTercero.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Modelo1.Entidades.Empleado">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAQgQAAAg=</HashCode>
+      <HashCode>AAAAACAAAAAAACAAAAAAAAAAQAAAAAAAAAAAQgQAAAg=</HashCode>
       <FileName>Entidades\Empleado.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Modelo1.Entidades.FondoReserva">
     <Position X="9.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAABAAAAgAAAABAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAgA=</HashCode>
       <FileName>Entidades\FondoReserva.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Modelo1.Entidades.HorasExt">
     <Position X="7.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAEAJAEgEAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAABAAIAAEAAAAAAAAAAAACABQAAAAAAAAJAAAAA=</HashCode>
       <FileName>Entidades\HorasExt.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Modelo1.Entidades.RolPago">
+  <Class Name="Modelo1.Entidades.Vacaciones">
     <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAIAggAAABAAAAAAAAAAAAAAEAAAAAAAAAAIgA=</HashCode>
-      <FileName>Entidades\RolPago.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Modelo1.Entidades.Vacaciones">
-    <Position X="0.75" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAABAAAAIAAAAAAAEAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAJYAAAAAAAAAAAAAAAAAAAAQAAAAAAARAAAAAA=</HashCode>
       <FileName>Entidades\Vacaciones.cs</FileName>
     </TypeIdentifier>
   </Class>
