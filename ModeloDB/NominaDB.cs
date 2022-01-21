@@ -43,11 +43,13 @@ namespace ModeloDB
             modelBuilder.Entity<Sueldos>()
                 .HasOne(suel => suel.TiempoTrabajo)
                 .WithMany(emp => emp.Salarios)
+                .OnDelete(DeleteBehavior.NoAction)
                 .HasForeignKey(emp => emp.IdTiempo);
 
             modelBuilder.Entity<Roles>()
                 .HasOne(emp => emp.Empleado)
                 .WithMany()
+                .OnDelete(DeleteBehavior.NoAction)
                 .HasForeignKey(rol => rol.EmpleadoId);
                 
 
